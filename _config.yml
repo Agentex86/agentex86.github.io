@@ -1,7 +1,7 @@
 # Jekyll configuration
 
 name: Agente x86
-version: 0.1
+version: 0.1.1
 author: (c) 2023 autores do Agente x86
 description: Um blog sobre OSDev, hardware e tecnologia em geral, com uma pitada de Assembly x86 e Java.
 
@@ -14,7 +14,7 @@ url: https://agentex86.github.io
 #     run it like so: jekyll serve --baseurl=''
 baseurl: ''
 
-# These can be '' to hide the Github or Gitlab nav buttons
+# These can be '' to hide the GitHub or Gitlab nav buttons
 github: 'agentex86/agentex86.github.io'
 gitlab: ''
 
