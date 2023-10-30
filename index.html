@@ -21,7 +21,7 @@ layout: default
         {% endif %}
         <hr>
         <div class="content">
-            {{ post.content }}
+            {{ post.content limit 10 }}
         </div>
     </div>
 </div>
