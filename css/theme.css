@@ -55,6 +55,10 @@ body {
     text-align: justify;
 }
 
+.well hr {
+    color: #6ac85e;
+}
+
 .author {
     color: #3ea304;
 }
