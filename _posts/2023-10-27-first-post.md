@@ -2,6 +2,7 @@
 title: "Meu primeiro post"
 date: 2023-10-27
 author: Felipe Lunkes (Lunx)
+tags: sobre
 ---
 
 <div align="justify">

@@ -22,6 +22,9 @@
             <div align="left">
                 <h3>Autor: {{ page.author }}</h3>
             </div>
+            <div align="left">
+                <h3>Tags: {{ page.tags }}</h3>
+            </div>
             {% if page.comments %}
                 {% if site.disqus != '' %}
             <div id="disqus_thread">
