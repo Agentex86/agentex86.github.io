@@ -6,8 +6,20 @@ layout: default
     <h1>Sobre o Agente x86</h1>
     <p>A escrever...</p>
 </div>
+
 <div class="well" align="justify">
     <h1>Se inscrever no RSS do Agente x86</h1>
     <p>Você pode se inscrever no feed RSS do Agente x86. Para isso, clique <a href="{{ site.baseurl }}/pages/feed.xml">aqui</a>.</p>
 </div>
 
+<div class="well" align="justify">
+    <h1>Obter o código-fonte do blog</h1>
+    <p>Você pode obter o código-fonte deste blog e das postagens
+{% if site.gitlab != '' %}
+    <li class="active"><a href="https://gitlab.com/{{ site.gitlab }}">aqui (Gitlab)</a></li>
+{% endif %}
+{% if site.github != '' %}
+    <li class="active"><a href="https://github.com/{{ site.github }}">aqui (GitHub)</a></li>
+{% endif %}
+. Todas as postagens e todo o trabalho autoral desenvolvido para o Agente x86 estão disponíveis sob a licença BSD-3-Clause. </p>
+</div>
