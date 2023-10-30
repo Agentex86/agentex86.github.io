@@ -1,7 +1,7 @@
 # Jekyll configuration
 
 name: Agente x86
-version: 0.1.7
+version: 0.1.8
 author: (c) 2023 autores do Agente x86
 description: Um blog sobre OSDev, hardware e tecnologia em geral, com uma pitada de Assembly x86 e Java.
 
