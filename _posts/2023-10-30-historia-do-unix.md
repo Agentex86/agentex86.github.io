@@ -8,7 +8,7 @@ update: 2023-10-30
 ---
 
 <p align="center">
-<img src="https://upload.wikimedia.org/wikipedia/commons/8/8a/Simh-pdp11-unix-sysiii.png">
+<img src="https://upload.wikimedia.org/wikipedia/commons/8/8a/Simh-pdp11-unix-sysiii.png" width="200" height="100">
 </p>
 
 <div align="justify">
