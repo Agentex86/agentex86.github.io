@@ -6,6 +6,9 @@ layout: default
 <div class="article">
     <div class="well">
         <h1><a href="{{ site.baseurl}}{{ post.url }}">{{ post.date | date: "%d/%m/%Y" }} - {{ post.title }}</a></h1>
+        <div align="right">
+          <h3>Autor: {{ page.author }}</h3>
+      </div>
         {% if site.comments and post.comments %}
             {% if site.disqus != '' %}
             <p class="author"><a href="{{ site.baseurl }}{{ post.url }}/#disqus_thread" data-disqus-identifier="{{ post.url | slugify }}">Comentários</a></p>
