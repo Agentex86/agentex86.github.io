@@ -43,6 +43,12 @@ body {
     text-align: justify;
 }
 
+.well h2 {
+    color: #6ac85e;
+    font-size: 1.0em;
+    text-align: justify;
+}
+
 .well h3 {
     color: #6ac85e;
     font-size: 0.8em;
