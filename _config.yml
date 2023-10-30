@@ -3,7 +3,7 @@
 name: Agente x86
 version: 0.1
 author: (c) 2023 autores do Agente x86
-description: Um blog sobre OSDev, hardware e tecnologia em geral, com uma pitada de Assembly x86 e Java
+description: Um blog sobre OSDev, hardware e tecnologia em geral, com uma pitada de Assembly x86 e Java.
 
 # url is currently only used only for the RSS feed in feed.xml
 url: https://agentex86.github.io
