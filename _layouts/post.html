@@ -9,6 +9,9 @@
           <div class="article">
             <div class="well">
                 <h1><a href="{{ site.baseurl}}{{ page.url }}">{{ page.date | date: "%d/%m/%Y" }} - {{ page.title }}</a></h1>
+                <div align="right">
+                    <h3>Autor: {{ page.author }}</h3>
+                </div>
             {% if site.comments and page.comments %}
                 {% if site.disqus != '' %}
                 <p class="author"><a href="#disqus_thread" data-disqus-identifier="{{ page.url | slugify }}">Comentários</a></p>
