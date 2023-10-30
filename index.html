@@ -7,7 +7,7 @@ layout: default
     <div class="well">
         <h1><a href="{{ site.baseurl}}{{ post.url }}">{{ post.date | date: "%d/%m/%Y" }} - {{ post.title }}</a></h1>
         <div align="right">
-          <h3>Autor: {{ page.author }}</h3>
+          <h3>Autor: {{ post.author }}</h3>
       </div>
         {% if site.comments and post.comments %}
             {% if site.disqus != '' %}
