@@ -1,6 +1,7 @@
 # Jekyll configuration
 
 name: Agente x86
+version: 0.1
 author: (c) 2023 Felipe Lunkes (Lunx)
 description: Um blog sobre OSDev, hardware e tecnologia em geral, com uma pitada de Assembly x86 e Java
 
