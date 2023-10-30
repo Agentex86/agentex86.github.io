@@ -1122,7 +1122,7 @@ input,button,select,textarea {
 }
 
 a {
-    color: #428bca;
+    color: #b2b98a;
     text-decoration: none
 }
 
@@ -4527,11 +4527,11 @@ textarea.input-group-sm>.form-control,textarea.input-group-sm>.input-group-addon
 }
 
 .navbar-inverse .navbar-brand {
-    color: #777
+    color: #3ea304;
 }
 
 .navbar-inverse .navbar-brand:hover,.navbar-inverse .navbar-brand:focus {
-    color: #2f7407;
+    color: #fff;
     background-color: transparent
 }
 

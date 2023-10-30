@@ -12,16 +12,16 @@ body {
 }
 
 .footer a {
-    color: #2f7407;
+    color: #3ea304;
 }
 
 .sidebar h1 {
-    color: #2f7407;
+    color: #3ea304;
     font-size: 1.3em;
 }
 
 .sidebar a {
-    color: #428bca;
+    color: #b2b98a;
 }
 
 .sidebar li {
@@ -30,7 +30,7 @@ body {
 }
 
 .sidebar a:hover {
-    color: #3071a9;
+    color: #b2b98a;
 }
 
 .container-left {
@@ -38,15 +38,15 @@ body {
 }
 
 .well h1 {
-    color: #2f7407;
+    color: #3ea304;
     font-size: 1.3em;
     text-align: justify;
 }
 
 .author {
-    color: #2f7407;
+    color: #3ea304;
 }
 
 .author a {
-    color: #2f7407;
+    color: #3ea304;
 }
