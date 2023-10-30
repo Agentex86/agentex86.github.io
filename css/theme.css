@@ -43,6 +43,12 @@ body {
     text-align: justify;
 }
 
+.well h3 {
+    color: #3ea304;
+    font-size: 0.6em;
+    text-align: justify;
+}
+
 .author {
     color: #3ea304;
 }
