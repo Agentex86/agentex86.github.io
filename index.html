@@ -12,7 +12,6 @@ layout: default
         <div align="left">
           <h3>Tags: {{ post.tags }}</h3>
         </div>
-        <hr>
         {% if site.comments and post.comments %}
             {% if site.disqus != '' %}
             <p class="author"><a href="{{ site.baseurl }}{{ post.url }}/#disqus_thread" data-disqus-identifier="{{ post.url | slugify }}">Comentários</a></p>
@@ -20,6 +19,7 @@ layout: default
             <p class="author"><a href="{{ site.baseurl }}{{ post.url }}{{ site.isso_suffix }}#isso-thread">Comentários</a></p>
             {% endif %}
         {% endif %}
+        <hr>
         <div class="content">
             {{ post.content }}
         </div>
