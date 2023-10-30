@@ -1,7 +1,8 @@
 # Jekyll configuration
 
 name: Agente x86
-version: 0.1.15
+title: Agente x86
+version: 0.1.16
 authors: Autores do Agente x86
 description: Um blog sobre OSDev, hardware e tecnologia em geral, com uma pitada de Assembly x86 e Java.
 
@@ -37,6 +38,6 @@ paginate: 10
 
 highlighter: rouge
 markdown: kramdown
-gems: ['jekyll-paginate']
+plugins: ['jekyll-paginate']
 
 exclude: ['README.md', 'LICENSE', "AUTHORS", "CREDITS"]
