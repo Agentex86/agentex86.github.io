@@ -15,7 +15,7 @@ update: 2023-10-30
 
 Have you ever heard of UNIX? UNIX was a revolutionary operating system, initially developed in 1969 by Ken Thompson, Dennis Ritchie and other employees of Bell Laboratories, owned by the American company AT&T. Initially developed as a hobby on an old unused PDP-7 computer, UNIX created countless foundations that define a modern operating system, influencing virtually all operating systems developed since then. UNIX instituted features such as support for multiple users and processes running at the same time (multitasking), implemented in a lightweight way (requiring few machine resources), and was initially written in Assembly language for PDP-7 and later rewritten in C language (developed by the same authors and used until today). Initially, the source code was distributed to Universities, including the University of California at Berkeley. At that University, UNIX was extensively studied and extended. Graduate students and researchers added advanced features to UNIX, such as virtual memory support, more modern file systems, and network support, leading to BSD (Berkeley Software Distribution) releases. The BSD were nothing more than the UNIX released by AT&T with improvements, then called BSD UNIX. With that, UNIX became very popular. UNIX was licensed to several companies, originating derived systems, such as Xenix, ULTRIX, Venix, Solaris and so on. The BSDs served as the basis for others, such as SunOS. Whereas the BSDs were distributed with a free license, AT&T's UNIX had a paid license. BSD then became the main free implementation of UNIX, giving rise to projects based on version 4.4 of BSD, now just called 4.4 BSD, FreeBSD, NetBSD and OpenBSD. FreeBSD is heavily used on servers these days, as well as forming the basis of macOS and iOS. Other companies' systems, such as Microsoft's MS-DOS and Windows, were heavily influenced by UNIX. UNIX was also an inspiration for the development of non-derived free systems, the so-called Unix-like, such as Minix and Linux itself.
 
-#### Original source code
+<h3> Original source code </h3>
 
 * [The Unix Tree - The UNIX Heritage Society](https://minnie.tuhs.org/cgi-bin/utree.pl)
 * [Research UNIX Version 1 - Version 7 source code (documentation)](https://github.com/dspinellis/unix-history-repo)
@@ -24,7 +24,7 @@ Have you ever heard of UNIX? UNIX was a revolutionary operating system, initiall
 * [Version 7 UNIX ported do x86 by Robert Nordier (BSD license)](https://www.nordier.com/v7x86/v7x86-0.8a-all.tar.xz)
 * [Old Unix XRef](https://wfjm.github.io/home/ouxr/)
 
-#### Download the system (install in a virtual machine or use in an emulator)
+<h3> Download the system (install in a virtual machine or use in an emulator) </h3>
 
 * [Apple A/UX](https://winworldpc.com/product/a-ux/3x)
 * [IBM AIX](https://winworldpc.com/product/aix/ibm-rt)
@@ -40,7 +40,7 @@ Have you ever heard of UNIX? UNIX was a revolutionary operating system, initiall
 * [Venix](https://winworldpc.com/product/venix/86-2x)
 * [Xenix](https://winworldpc.com/product/xenix/8086)
 
-#### Specifications, documentation, manuals and historical material
+<h3> Specifications, documentation, manuals and historical material </h3>
 
 * [UNIX History - Figure](https://upload.wikimedia.org/wikipedia/commons/7/77/Unix_history-simple.svg)
 * [History of UNIX](http://ibgwww.colorado.edu/~lessem/psyc5112/usail/concepts/hx-of-unix/unixhx.html)
@@ -56,7 +56,7 @@ Have you ever heard of UNIX? UNIX was a revolutionary operating system, initiall
 * [UNIX® on the Game Boy Advance](https://web.archive.org/web/20060831141959/http://www.kernelthread.com/publications/gbaunix/)
 * [X.Org](https://www.x.org/wiki/)
 
-#### Books and papers
+<h3> Books and papers </h3>
 
 * [The Evolution of the Unix Time-sharing System - Dennis M. Ritchie (Bell Labs), 1984](https://www.bell-labs.com/usr/dmr/www/hist.html)
 * [The Evolution of the UNIX Time-sharing System - PDF (same as above)](https://curtsinger.cs.grinnell.edu/teaching/2019S/CSC213/files/unix_evolution.pdf)
@@ -65,11 +65,11 @@ Have you ever heard of UNIX? UNIX was a revolutionary operating system, initiall
 * [UNIX Seventh Edition Manual, Volume 2](https://wolfram.schneider.org/bsd/7thEdManVol2/)
 * [The UNIX HATERS Handbook - PDF](https://web.mit.edu/~simsong/www/ugh.pdf)
 
-#### Websites
+<h3> Websites </h3>
 
 * [The UNIX Heritage Society](https://www.tuhs.org/)
 
-#### Wikipedia content
+<h3> Wikipedia content </h3>
 
 * [UNIX](https://en.wikipedia.org/wiki/Unix)
 * [History of UNIX](https://en.wikipedia.org/wiki/History_of_Unix)
@@ -81,7 +81,7 @@ Have you ever heard of UNIX? UNIX was a revolutionary operating system, initiall
 * [UnixWare](https://en.wikipedia.org/wiki/UnixWare)
 * [Ancient UNIX](https://en.wikipedia.org/wiki/Ancient_UNIX)  
 
-#### Run UNIX
+<h3> Run UNIX </h3>
 
 * [Run ancient UNIX on modern hardware (Version 1 to Version 7 UNIX and BSD UNIX)](https://github.com/felipenlunkes/run-ancient-unix)
 
