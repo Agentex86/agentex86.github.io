@@ -4,7 +4,7 @@ date: 2023-10-30
 author: Felipe Lunkes (Lunx)
 tags: Sistemas Operacionais
 revised: Felipe Lunkes (Lunx)
-update: 2023-10-30
+update: 2023-10-32
 ---
 
 <p align="center">
