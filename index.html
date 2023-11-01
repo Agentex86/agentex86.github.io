@@ -7,8 +7,9 @@ layout: default
     <div class="well">
         <h1><a href="{{ site.baseurl}}{{ post.url }}">{{ post.title }}</a></h1>
         <div align="left">
+          <h3>Data da publicação: {{ post.date | date: "%d/%m/%Y" }}</h3>
+          <h3>Data da última atualização: {{ post.update | update: "%d/%m/%Y" }}</h3>
           <h3>Autor: {{ post.author }}</h3>
-          <h3>Data: {{ post.date | date: "%d/%m/%Y" }}</h3>
           <h3>Tags: {{ post.tags }}</h3>
         </div>
         {% if site.comments and post.comments %}
