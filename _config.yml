@@ -1,10 +1,11 @@
 name: Agente x86
 title: Agente x86
-version: 0.1.45
+version: 0.1.46
 authors: Autores do Agente x86
 description: Um blog sobre OSDev, hardware e tecnologia em geral, com uma pitada de Assembly x86 e Java.
 excerpt_separator: <!--quebra-->
 excerpt_enabled: false
+excerpt_size: 50
 
 # url is currently only used only for the RSS feed in feed.xml
 
