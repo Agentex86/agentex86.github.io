@@ -27,10 +27,9 @@ layout: default
           {% endif %}
         </div>
         {% if post.content | number_of_words > 50 %}
-        <div align="right"></div>
+        <div align="right">
           <h2><a href="{{ site.baseurl}}{{ post.url }}">Ler mais...</a></h2>
         </div>
-        {% else %}
         {% endif %}
     </div>
 </div>
