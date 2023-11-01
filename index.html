@@ -11,6 +11,7 @@ layout: default
           <h3>Tags deste post: 
             {% for tags in post.tags %}
             {{ tags.content }}
+            {% endfor %}
           </h3>
         </div>
         {% if site.comments and post.comments %}
