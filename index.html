@@ -25,9 +25,9 @@ layout: default
         <div class="content">
           {% assign wordCount = post.content | number_of_words %}
           {% if site.excerpt_enabled %}
-            {{ post.content | markdownify | strip_html | truncatewords: site.excerpt_size }}
+          {{ post.excerpt }}
           {% else %}
-            {{ post.excerpt }}
+            {{ post.content | markdownify | strip_html | truncatewords: site.excerpt_size }}
           {% endif %}
         </div>
         {% if wordCount > site.excerpt_size %}
