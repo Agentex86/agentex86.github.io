@@ -37,6 +37,11 @@ body {
     margin: 0;
 }
 
+.container-center {
+    margin: 0;
+    width: 100%
+}
+
 .well h1 {
     color: #3ea304;
     font-size: 1.3em;
