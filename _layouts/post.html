@@ -22,7 +22,7 @@
             </div>
             <hr>
             <div align="left">
-                <h3>Publicado em {{ post.date | date: "%d/%m/%Y" }} por {{ post.author }}
+                <h3>Publicado em {{ page.date | date: "%d/%m/%Y" }} por {{ page.author }}
                 {% if page.update != '' %}
                 , com atualização em: {{ page.update | date: "%d/%m/%Y" }}
                 {% endif %}
