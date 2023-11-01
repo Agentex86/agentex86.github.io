@@ -20,7 +20,11 @@ layout: default
         {% endif %}
         <hr>
         <div class="content">
-            {{ post.excerpt }}...
+          {% if site.excerpt_enabled %}
+            {{ post.content | markdownify | strip_html | truncatewords: 50 }}
+          {% elseif site.excerpt_enabled = false }
+            {{ post.excerpt }}
+          {% endif %}
         </div>
         <div align="right">
           <h2><a href="{{ site.baseurl}}{{ post.url }}">Ler mais...</a></h2>
