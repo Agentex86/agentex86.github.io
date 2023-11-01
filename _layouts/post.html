@@ -24,7 +24,7 @@
             <div align="left">
                 <h3>Publicado em {{ page.date | date: "%d/%m/%Y" }} por {{ page.author }}
                 {% if page.update != '' %}
-                , com atualização em: {{ page.update | date: "%d/%m/%Y" }}
+                e atualizado em {{ page.update | date: "%d/%m/%Y" }}
                 {% endif %}
                 </h3>
                 <h3>Tags deste post: {{ page.tags }}</h3>
