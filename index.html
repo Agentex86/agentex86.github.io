@@ -23,6 +23,7 @@ layout: default
         {% endif %}
         <hr>
         <div class="content">
+            <div align="justify">
           {% assign wordCount = post.content | number_of_words %}
           {% if site.excerpt_enabled %}
           {{ post.excerpt }}
@@ -33,6 +34,7 @@ layout: default
         {% if wordCount > site.excerpt_size %}
         <div align="right">
           <h2><a href="{{ site.baseurl}}{{ post.url }}">Ler mais...</a></h2>
+        </div>
         </div>
         {% endif %}
     </div>
