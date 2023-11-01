@@ -8,9 +8,6 @@ layout: default
         <h1><a href="{{ site.baseurl}}{{ post.url }}">{{ post.title }}</a></h1>
         <div align="left">
           <h3>Data da publicação: {{ post.date | date: "%d/%m/%Y" }}</h3>
-          {% if post.update != 0 %}
-          <h3>Data da última atualização: {{ post.update | date: "%d/%m/%Y" }}</h3>
-          {% endif %}
           <h3>Autor: {{ post.author }}</h3>
           <h3>Tags: {{ post.tags }}</h3>
         </div>
