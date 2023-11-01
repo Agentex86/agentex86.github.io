@@ -22,7 +22,7 @@ layout: default
         <div class="content">
           {% if site.excerpt_enabled %}
             {{ post.content | markdownify | strip_html | truncatewords: 50 }}
-          {% elsif site.excerpt_enabled = false }
+          {% else %}
             {{ post.excerpt }}
           {% endif %}
         </div>
