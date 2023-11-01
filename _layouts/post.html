@@ -22,12 +22,11 @@
             </div>
             <hr>
             <div align="left">
-                <h3>Data da publicação: {{ page.date | date: "%d/%m/%Y" }}</h3>
-                <h3>Autor: {{ page.author }}</h3>
+                <h3>Publicado em {{ post.date | date: "%d/%m/%Y" }} por {{ post.author }}</h3>
                 {% if page.update != '' %}
                 <h3>Data da última atualização: {{ page.update | date: "%d/%m/%Y" }}</h3>
                 {% endif %}
-                <h3>Tags: {{ page.tags }}</h3>
+                <h3>Tags deste post: {{ page.tags }}</h3>
             </div>
             <hr>
             {% if page.comments %}
