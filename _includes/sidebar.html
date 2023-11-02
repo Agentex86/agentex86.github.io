@@ -16,9 +16,9 @@
 
 <div class="sidebar well">
   <h1>Tags recentes</h1>
-  {% for tag in site.tags %}
   <ul>
-    <li><a href="/tags/{{ tag }}" class="tag">{{ tag }}</a></li>
+    {% for tag in site.tags limite:5 %}
+    <li><a href="/tags/{{tag}}">{{ tag }}</a></li>
     {% endfor %}
   </ul>
 </div>
