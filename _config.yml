@@ -5,7 +5,7 @@ description: Um blog sobre OSDev, hardware e tecnologia em geral, com uma pitada
 
 # Version
 
-version: 0.1.113
+version: 0.1.114
 
 # Tag settings 
 
@@ -60,6 +60,6 @@ paginate: 10
 
 highlighter: rouge
 markdown: GFM
-plugins: ['jekyll-paginate']
+plugins: ['jekyll-paginate', 'jekyll-tagories']
 
 exclude: ['README.md', 'LICENSE', "AUTHORS", "CREDITS"]
