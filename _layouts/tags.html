@@ -4,7 +4,6 @@ layout: default
 
 <div class="well" align="justify">
 <h1>Tag: "{{ page.tag-name }}"</h1>
-<ul style='padding-top: 16px;'>
 
 {% for post in site.posts %}
     {% if post.tags contains page.tag-name %}
@@ -12,5 +11,4 @@ layout: default
     {% endif %}
 {% endfor %}
 
-</ul>
 </div>
