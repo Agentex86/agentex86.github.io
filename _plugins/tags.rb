@@ -18,7 +18,7 @@ module Jekyll
         @name = 'index.html'
   
         self.process(@name)
-        self.read_yaml(File.join(base, 'pages'), 'tag.html')
+        self.read_yaml(File.join(base, '_layouts'), 'tag.html')
         self.data['tag'] = tag
         self.data['title'] = "Tag: #{tag}"
       end
