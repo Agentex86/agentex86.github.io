@@ -18,8 +18,8 @@
   <h1>Tags recentes</h1>
   <ul>
     {% assign tags = site.posts | all_tags %}
-    {% for tag in tags %}
-      <li><a href="{{ site.baseurl | append: "/tags/" | append: tag | append: "/" }}"> {{ tag }}</a></li>
+    {% for tag in site.tags %}
+      <li><a href={{ site.baseurl | append: "/tags/" | append: tag | append: "/" }}>{{ tag }}</a></li>
     {% endfor %}
   </ul>
 </div>
