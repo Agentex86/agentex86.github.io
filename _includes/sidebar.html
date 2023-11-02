@@ -14,10 +14,57 @@
     </ul>
 </div>
 
+{% capture post_tags %}
+  {% for tag in site.tags %}
+    {{ tag[0] }}
+  {% endfor %}
+{% endcapture %}
+{% assign tags = post_tags | strip_newlines | split:' ' %}
+
+{% comment %}
+# get all unique page tags
+{% endcomment %}
+
+{%- for page in site.pages -%}
+  {% assign page_tags = page_tags | concat:page.tags %}
+{%- endfor -%}
+
+{%- assign post_tags = post_tags | remove: "\n" | split: " " -%}
+
+
+{% comment %}
+# debug prints
+
+post_tags
+{{post_tags | jsonify}}
+
+page_tags
+{{page_tags | jsonify}}
+
+{% endcomment %}
+
+{% comment %}
+# concat was injecting line breaks here, so had to hammer
+# it the old fashioned way to avoid concat
+{% endcomment %}
+
+{% for tag in post_tags %}
+  {% assign all_tags = all_tags | push: tag %}
+{% endfor %}
+
+{% for tag in page_tags %}
+  {% assign all_tags = all_tags | push: tag %}
+{% endfor %}
+
+{% assign sortedtags = all_tags | uniq | sort%}
+
+
+
 <div class="sidebar well">
   <h1>Tags recentes</h1>
   <ul>
-    {% for tag in site.tags limit:5 %}
+    {% for tag in sortedtags %}
+    {% assign all_tagged = "" | split: ',' %}
     <li><a href="/tags/{{tag}}">{{ tag }}</a></li>
     {% endfor %}
   </ul>
