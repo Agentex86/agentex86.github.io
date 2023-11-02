@@ -22,9 +22,9 @@
       {% assign tag_slug = tag['name'] | slugify: "raw" %}
       <li>
         <a class="tag-link"
-          href={{ site.baseurl | append: "/tags/" | append: tag | append: "/" }}
+          href={{ site.baseurl | append: "/tags/" | append: tag_slug | append: "/" }}
           rel="category tag">
-          #{{ tag['name'] }} ({{ tag }})
+          #{{ tag_slug] }} ({{ tag_slug }})
         </a>
       </li>
     {% endfor %}
