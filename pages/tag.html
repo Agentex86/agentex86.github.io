@@ -1,9 +1,7 @@
-<!doctype html>
-<html>
-  <head>
-    <title>Tag: #{{page.tag}}</title>
-  </head>
-  <body>
+---
+layout: default
+---
+
     <h1>Tag: #{{page.tag}}</h1>
     <ul>
       {% for post in site.posts %}
@@ -12,5 +10,3 @@
       {% endif %}
       {% endfor %}
     </ul>
-  </body>
-</html>
