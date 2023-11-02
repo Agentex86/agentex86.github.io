@@ -5,6 +5,8 @@
 {{ site.description }}
 </div>
 
+{% if site.search_enabled %}
+
 <div class="sidebar well">
     <h1>Posts recentes</h1>
     <ul>
@@ -13,6 +15,7 @@
         {% endfor %}
     </ul>
 </div>
+{% endif %}
 
 <div class="sidebar well">
   <h1>Procure no Agente x86</h1>
