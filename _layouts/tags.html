@@ -3,7 +3,7 @@ layout: default
 ---
 
 <div class="well" align="justify">
-<h1>Tag: #"{{ page.tag-name }}"</h1>
+<h1>Posts marcados com a tag: #{{ page.tag-name }}</h1>
 
 {% for post in site.posts %}
     {% if post.tags contains page.tag-name %}
