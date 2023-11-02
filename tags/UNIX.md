@@ -1,4 +1,4 @@
 ---
-layout: default
+layout: tags
 tag-name: UNIX
 ---
