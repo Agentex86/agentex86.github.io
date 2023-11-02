@@ -5,8 +5,6 @@
 {{ site.description }}
 </div>
 
-{% if site.search_enabled %}
-
 <div class="sidebar well">
     <h1>Posts recentes</h1>
     <ul>
@@ -15,12 +13,13 @@
         {% endfor %}
     </ul>
 </div>
-{% endif %}
 
+{% if site.search_enabled %}
 <div class="sidebar well">
   <h1>Procure no Agente x86</h1>
   {% include search-lunr.html %}
 </div>
+{% endif %}
 
 {% if site.links_enabled %}
 <div class="sidebar well">
