@@ -2,7 +2,7 @@
 layout: default
 ---
 
-<div>
+<div class="well" align="justify">
 <h1>Tag: "{{ page.tag-name }}"</h1>
 <ul style='padding-top: 16px;'>
 
@@ -11,5 +11,6 @@ layout: default
     <li><a href="{{ post.url }}">{{ post.title }}</a>, publicado em {{ post.date | date: "%d-%m-%Y" }} por {{ post.author }}</li>
     {% endif %}
 {% endfor %}
+
 </ul>
 </div>
