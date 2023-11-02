@@ -3,9 +3,14 @@ title: Agente x86
 authors: Autores do Agente x86
 description: Um blog sobre OSDev, hardware e tecnologia em geral, com uma pitada de Assembly x86 e Java.
 
+collections:
+  tags:
+    output: true
+    permalink: tags/:path/
+
 # Version
 
-version: 0.1.99
+version: 0.1.100
 
 # Layout configs 
 
