@@ -3,19 +3,20 @@ layout: default
 ---
 
 <div class="well" id="search-container" align="justify">
- <!-- Html Elements for Search -->
+  <h1>Pesquise no Agente x86</h1>
+
 <div class="form-group" id="search-container">
-  <input class="form-field" type="text" id="search-input"  placeholder="Search">
-  <!-- <span>Search</span> -->
+  <input class="form-field" type="text" id="search-input"  placeholder="O que você procura?">
+
 </div>
 <div>
 <ul id="results-container"></ul>
 </div>
 </div>
-<!-- Script pointing to search-script.js -->
-<script src="https://abhigupta.io/assets/js/search_script.js" type="text/javascript"></script>
 
-<!-- Configuration -->
+<script src="/js/search_script.js" type="text/javascript"></script>
+
+
 <script>
 SimpleJekyllSearch({
 searchInput: document.getElementById('search-input'),
