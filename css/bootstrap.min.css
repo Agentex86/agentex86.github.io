@@ -4452,31 +4452,20 @@ textarea.input-group-sm>.form-control,textarea.input-group-sm>.input-group-addon
 }
 
 .navbar-nav {
-    height: 50px; /* Ajuste conforme necessário */
-    display: flex;
-    align-items: center;
     margin: 7.5px -15px
 }
 
-.navbar-nav>li {
-    display: flex; /* Flexbox garante que os itens da lista respeitem o tamanho do conteúdo */
-    align-items: center; /* Centraliza o conteúdo verticalmente */
-  /*  overflow: hidden; /* Esconde qualquer parte que ultrapasse a área visível */
-  /*  max-height: 50px; /* Define uma altura máxima para o item da lista */
-}
-
 .navbar-nav>li>a {
-    padding: 0;
-    display: flex;
-    align-items: center;
-    height: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    line-height: 20px
 }
 
 .navbar-nav>li>a>img {
-    max-width: 100%; /* Garante que a imagem não seja maior que o contêiner */
-    max-height: 100%; /* Garante que a altura da imagem não ultrapasse a altura do contêiner */
-    width: auto; /* Mantém a proporção da imagem */
-    height: auto; /* Mantém a proporção da imagem */
+    max-height: 100%;
+    max-width: 100%;
+    height: auto;
+    width: auto;
 }
 
 @media (max-width: 767px) {
