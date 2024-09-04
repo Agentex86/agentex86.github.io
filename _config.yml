@@ -24,7 +24,7 @@ search_enabled: false
 
 # url is currently only used only for the RSS feed in feed.xml
 
-url: https://agentex86.github.io
+url: https://lunx.me
 
 # baseurl will often be '', but for a project page on gh-pages, it needs to
 # be the project name.
