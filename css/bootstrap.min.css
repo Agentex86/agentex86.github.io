@@ -4470,9 +4470,6 @@ textarea.input-group-sm>.form-control,textarea.input-group-sm>.input-group-addon
     display: flex;
     align-items: center;
     height: 100%;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    line-height: 20px
 }
 
 .navbar-nav>li>a>img {
