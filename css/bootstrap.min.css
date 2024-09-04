@@ -4451,6 +4451,12 @@ textarea.input-group-sm>.form-control,textarea.input-group-sm>.input-group-addon
     }
 }
 
+.collapse.navbar-collapse ul.nav > li > a > img {
+    max-width: 100%; /* A imagem não excederá o tamanho da div pai */
+    height: auto;    /* A altura será ajustada automaticamente para manter a proporção */
+    display: block;  /* Garantir que a imagem ocupe o espaço disponível */
+}
+
 .navbar-nav {
     margin: 7.5px -15px
 }
