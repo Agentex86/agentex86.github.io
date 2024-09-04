@@ -4451,12 +4451,6 @@ textarea.input-group-sm>.form-control,textarea.input-group-sm>.input-group-addon
     }
 }
 
-.collapse.navbar-collapse ul.nav > li > a > img {
-    max-width: 100%; /* A imagem não excederá o tamanho da div pai */
-    height: auto;    /* A altura será ajustada automaticamente para manter a proporção */
-    display: block;  /* Garantir que a imagem ocupe o espaço disponível */
-}
-
 .navbar-nav {
     margin: 7.5px -15px
 }
@@ -4465,6 +4459,12 @@ textarea.input-group-sm>.form-control,textarea.input-group-sm>.input-group-addon
     padding-top: 10px;
     padding-bottom: 10px;
     line-height: 20px
+}
+
+.navbar-nav>li>a>img {
+    max-width: 100%; /* A imagem não excederá o tamanho da div pai */
+    height: auto;    /* A altura será ajustada automaticamente para manter a proporção */
+    display: block;  /* Garantir que a imagem ocupe o espaço disponível */
 }
 
 @media (max-width: 767px) {
