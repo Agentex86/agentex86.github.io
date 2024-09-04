@@ -4461,13 +4461,6 @@ textarea.input-group-sm>.form-control,textarea.input-group-sm>.input-group-addon
     line-height: 20px
 }
 
-.navbar-nav>li>a>img {
-    max-height: 100%;
-    max-width: 100%;
-    height: auto;
-    width: auto;
-}
-
 @media (max-width: 767px) {
     .navbar-nav .open .dropdown-menu {
         position:static;
