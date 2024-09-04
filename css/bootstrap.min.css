@@ -4455,6 +4455,10 @@ textarea.input-group-sm>.form-control,textarea.input-group-sm>.input-group-addon
     margin: 7.5px -15px
 }
 
+.navbar-nav>li {
+    display: inline-block;
+}
+
 .navbar-nav>li>a {
     padding-top: 10px;
     padding-bottom: 10px;
