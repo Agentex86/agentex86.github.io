@@ -1,7 +1,7 @@
-<h1>Links</h1>
+<h1>Posts recentes</h1>
 <ul>
-  <li><a href="#">Um</a></li>
-  <li><a href="#">Dois</a></li>
-  <li><a href="#">Três</a></li>
-  <li><a href="#">Quatro</a></li>
+  {% for post in site.posts limit:5 %}
+    <li><a href="{{ site.baseurl}}{{ post.url }}">{{ post.title }}</a></li>
+  {% endfor %}
 </ul>
+
