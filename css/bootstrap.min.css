@@ -4469,9 +4469,10 @@ textarea.input-group-sm>.form-control,textarea.input-group-sm>.input-group-addon
 }
 
 .navbar-nav>li>a>img {
-    max-width: 100%; /* A imagem não excederá o tamanho da div pai */
-    height: auto;    /* A altura será ajustada automaticamente para manter a proporção */
-    display: block;  /* Garantir que a imagem ocupe o espaço disponível */
+    max-width: 100%; /* Garante que a imagem não seja maior que o contêiner */
+    max-height: 100%; /* Garante que a altura da imagem não ultrapasse a altura do contêiner */
+    width: auto; /* Mantém a proporção da imagem */
+    height: auto; /* Mantém a proporção da imagem */
 }
 
 @media (max-width: 767px) {
