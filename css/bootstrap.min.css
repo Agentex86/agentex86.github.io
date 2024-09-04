@@ -4452,6 +4452,9 @@ textarea.input-group-sm>.form-control,textarea.input-group-sm>.input-group-addon
 }
 
 .navbar-nav {
+    height: 50px; /* Ajuste conforme necessário */
+    display: flex;
+    align-items: center;
     margin: 7.5px -15px
 }
 
