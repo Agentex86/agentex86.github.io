@@ -4456,6 +4456,7 @@ textarea.input-group-sm>.form-control,textarea.input-group-sm>.input-group-addon
 }
 
 .navbar-nav>li {
+    max-width: 150px; /* Define um tamanho máximo para o item da lista */
     display: inline-block;
     overflow: hidden; /* Impede que o conteúdo expanda além do tamanho do item */
 }
