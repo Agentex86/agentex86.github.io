@@ -4461,8 +4461,8 @@ textarea.input-group-sm>.form-control,textarea.input-group-sm>.input-group-addon
 .navbar-nav>li {
     display: flex; /* Flexbox garante que os itens da lista respeitem o tamanho do conteúdo */
     align-items: center; /* Centraliza o conteúdo verticalmente */
-    overflow: hidden; /* Esconde qualquer parte que ultrapasse a área visível */
-    max-height: 50px; /* Define uma altura máxima para o item da lista */
+  /*  overflow: hidden; /* Esconde qualquer parte que ultrapasse a área visível */
+  /*  max-height: 50px; /* Define uma altura máxima para o item da lista */
 }
 
 .navbar-nav>li>a {
